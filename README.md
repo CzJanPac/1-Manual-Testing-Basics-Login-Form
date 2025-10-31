@@ -16,7 +16,7 @@ The project is built step by step over several days to simulate a **real QA work
 
 ## What’s Included
 - **Feature Analysis** – identification of scope, risks, and objectives.  
-- *(coming next)* **Test Plan** – overall strategy and testing approach.  
+- **Test Plan** – overall strategy and testing approach.  
 - *(coming next)* **Test Cases** – detailed positive and negative test scenarios.  
 - *(coming next)* **Bug Reports & Test Summary** – defects and execution results.
 
