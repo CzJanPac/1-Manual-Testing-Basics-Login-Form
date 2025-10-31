@@ -1,39 +1,44 @@
 # Feature Analysis – Login Function
 
 ## 1. Purpose
-The goal of this test is to verify the function of the login form in website https://www.saucedemo.com/ with functional positive and negative tests. 
+The goal of this test is to verify the functionality of the login form on the website https://www.saucedemo.com through both positive and negative functional tests.
+Login is a basic function because the user needs access to their profile.
 
 ## 2. Test Scope
 ### In Scope
-two input form fields - Username and Password
-error messages
-successfully redirect after submit login
-button Login
-frontend
+- Two input fields: Username and Password.
+- Error messages for invalid inputs.
+- Successful redirect after a valid login.
+- Login button functionality.
+- Frontend behavior only.
 
 ### Out of Scope
-- Backend and API
-- Visual and UI
+- Backend and API.
+- Visual and UI.
 
 ## 3. Identified Risks
 | Risk | Impact | Probability | Notes |
 |------|--------|--------------|-------|
-| Nonvalid input in form fields | High | High | Can make system crash or security problem |
-| Missing error messages | Medium | High | User can be confused |
-| Incorrect redirect | Medium | Low | User cant use application or product |
-| Login button dont submit form | High | Medium | Function of login form be broke |
-| Many clicks of Login button | High | Low | Can cause system crash |
+| Invalid input in form fields | High | High | May cause a system error or security vulnerability |
+| Missing error messages | Medium | High | Users may become confused |
+| Incorrect redirect | Medium | Low | User can’t access the application correctly |
+| Login button does not submit the form | High | Low | Login functionality is broken |
+| Repeated clicking of the Login button | High | Low | Multiple clicks on the Login button may cause performance issues or duplicate requests |
+| Weak password from a security point of view | High | Medium | May cause unauthorized access to the account |
 
 ## 4. Test Objectives
-Positive test of login form fields
-Negative test of login form fields
-Verify the error message is shown after negative test
-Redirecting after submit positive login
-Verify the user remain logged in 
-After log out the user must be logged out
+- Verify positive login with valid credentials.  
+- Verify negative login with invalid credentials or empty fields.  
+- Ensure error messages appear for failed login attempts.  
+- Confirm that users are redirected correctly after successful login.  
+- Verify that the user remains logged in after navigation.  
+- Ensure that after logout the user is completely signed out.
 
 ## 5. Assumptions
 - Browser: Chrome (latest)  
-- OS: Windows 11  
+- OS: Windows 11
 - Test account: standard_user / secret_sauce
+- Test user credentials are valid and active
+- Internet connection is stable and the website is accessible
+- The browser cache is cleared before testing
 
