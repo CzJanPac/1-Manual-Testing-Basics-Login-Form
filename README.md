@@ -39,9 +39,9 @@ By the end of this learning path, the repository will contain complete testing d
 |--------|---------|-------------|
 | Feature Analysis | ✅ Completed | Defines scope, risks, and test objectives |
 | Test Plan | ✅ Completed | Describes test approach, techniques and resources |
-| Test Cases | ⏳ In progress | positive & negative |
-| Bug Reports | ⏳ Planned | Real and simulated defects |
-| Final Report | ⏳ Planned | Summary of testing results |
+| Test Cases | ✅ Completed | positive & negative |
+| Bug Reports | ✅ Completed | Real and simulated defects |
+| Final Report | ⏳ In progress | Summary of testing results |
 
 
 ## Author
