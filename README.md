@@ -29,7 +29,7 @@ The project is built step by step over several days to simulate a **real QA work
 
 
 ## Learning Goals
-This repository is part of my structured QA training course created using ChatGPT  
+This repository is part of my structured QA training course created using ChatGPT.  
 Each phase focuses on both **QA skills** and **English writing improvement**.  
 By the end of this learning path, the repository will contain complete testing documentation.
 
